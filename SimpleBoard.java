@@ -30,7 +30,12 @@ public class SimpleBoard extends JPanel implements MouseMotionListener, ActionLi
       timer = new Timer(10, this);
       timer.start();
   }
-
+/*-------------------------------------------------------------------------------------------------------------------
+                                        NOTES BY NIK!           */
+//By Nik: remove this completely and then in move, check ONLY 3 POINTS, the one at the bottom-center, the one at the
+//bottom left, and the one at the bottom right. A way you can check that is to see if the color at that point is black
+//or not. If it is black, that means there is nothing there. If it is not black, then push the particle away from that
+//point. Ex: bottom is filled. Push it up. Left is filled, push it right... etc.
   public boolean canMove(Particle part)
   {
     // Replace with better code, this is experimentation
