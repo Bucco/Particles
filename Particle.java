@@ -1,3 +1,8 @@
+//HEY BUCCO!!!!! What is x and y... is that the top left corner of the particle...
+//
+//Also, how many pixels is the particle... so if I wanted the location 1 pixel below the particle, what would it be??
+
+
 import java.awt.image.BufferedImage;
 import java.awt.Image;
 import java.awt.Color;
